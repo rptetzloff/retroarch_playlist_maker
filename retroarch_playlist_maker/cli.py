@@ -35,7 +35,7 @@ def cli(path, ext, name, playlist_path):
 
     res['items'] = items
 
-    with out_file.open('wb') as f_out:
+    with out_file.open('wt') as f_out:
         json.dump(res, f_out, indent=2)
 
 
