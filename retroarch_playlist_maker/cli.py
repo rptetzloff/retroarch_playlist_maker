@@ -36,7 +36,7 @@ def cli(path, ext, name, playlist_path):
     res['items'] = items
 
     with out_file.open('w') as f_out:
-        json.dump(res, f_out, indent=4)
+        json.dump(res, f_out, indent=2)
 
 
 if __name__ == '__main__':
