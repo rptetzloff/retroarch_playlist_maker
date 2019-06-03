@@ -18,7 +18,7 @@ def cli(path, ext, name, playlist_path):
         'version': version,
     }
     items = []
-    click.echo(ext)
+
     if not name:
         dir_path = Path(path)
         name = dir_path.stem.replace('_', ' ').strip()
