@@ -22,7 +22,7 @@ def get_name(path: Path) -> str:
 
 def get_item(path: Path, playlist: str) -> dict:
     item = {
-        "path": str(path.resolve()),
+        "path": str(path.absolute()),
         "label": get_name(path),
         'core_path': 'DETECT',
         'core_name': 'DETECT',
