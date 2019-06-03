@@ -1,5 +1,19 @@
 # retroarch_playlist_maker
 
+## Information
+
+Generate an XML-style RetroArch playlist via cli.
+
+- Should work on Linux, MacOS, or Windows
+
+## TODO
+
+- crc support?
+- handling of core files and names
+- thumbnails
+- GUI?
+- Documentation
+
 ## CLI Script
 
 ```bash
