@@ -23,7 +23,7 @@ def cli(path, ext, name, playlist_path):
         dir_path = Path(path)
         name = dir_path.stem.replace('_', ' ').strip()
 
-    out_file = Path(playlist_path + name)
+    out_file = Path(playlist_path / name)
     out_file = out_file.with_suffix('.lpl')
 
     files = scan_directory(path, ext=ext)
